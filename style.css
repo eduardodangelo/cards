@@ -101,10 +101,10 @@ footer {
   }
 }
 
-@media (max-width: 810px) {
+@media (max-width: 780px) {
   #header {
-    font-size: 14px;
-    width: 360px;
+    /* font-size: 14px; */
+    /* width: 360px; */
   }
 
   .box-down {
