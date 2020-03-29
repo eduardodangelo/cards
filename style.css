@@ -49,7 +49,6 @@ P {
 
 .box::after {
   content: '';
-  background-color: purple;
   position: absolute;
   top: 0;
   left: 0;
@@ -96,9 +95,9 @@ footer {
   margin: 50px auto;
 }
 
-@media (max-width: 775px) {
+@media (max-width: 700px) {
   .box-down {
-    transform: translateY(0);
+    transform: none;
   }
 }
 
