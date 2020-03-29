@@ -93,6 +93,7 @@ P {
 
 footer {
   text-align: center;
+  margin: 50px auto;
 }
 
 @media (max-width: 775px) {
