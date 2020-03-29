@@ -72,9 +72,9 @@ P {
   background-color: hsl(212, 86%, 64%);
 }
 
-/* .box-down {
+.box-down {
   transform: translateY(50%);
-} */
+}
 
 .box h2 {
   margin: 0;
@@ -95,21 +95,19 @@ footer {
   margin: 50px auto;
 }
 
-@media (min-width: 776px) {
+@media (max-width: 1198px) {
   .box-down {
     transform: translateY(0);
   }
 }
 
-@media (max-width: 1440px) {
-  .box-down {
-    transform: translateY(50%);
+@media (max-width: 810px) {
+  #header {
+    font-size: 14px;
+    width: 360px;
   }
-}
 
-@media (max-width: 775px) {
   .box-down {
     transform: translateY(0);
   }
 }
-
