@@ -28,7 +28,6 @@ body {
 .text-center {
   text-align: center;
   padding: 20px;
-  /* margin: 30px; */
 }
 
 header h1 {
@@ -122,12 +121,16 @@ a {
   }
 
   footer {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
 }
 
 @media screen and (min-width: 1146px) {
   .translate-y {
     transform: translateY(50%);
+  }
+
+  .text-center {
+    font-size: 1.1rem;
   }
 }
